@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  nvr:
+    build: .
+    container_name: nvr
+    ports:
+      - "8080:8080"
+    environment:
+      - NODE_ENV=production
+      - TZ=UTC
+      - RTSP_RECONNECT_TIMEOUT=5000
+    volumes:
+      - ./src/config:/app/src/config:ro
+      - ./config:/app/config:rw
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    networks:
+      - nvr-network
+
+networks:
+  nvr-network:
+    driver: bridge

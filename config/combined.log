@@ -1,0 +1,226 @@
+{"level":"info","message":"Running in development mode - stream disabled"}
+{"level":"info","message":"NVR web interface listening at http://localhost:8080"}
+{"level":"info","message":"Stream started successfully"}
+{"level":"info","message":"NVR web interface listening at http://localhost:8080"}
+{"level":"error","message":"Application error: /app/src/views/index.ejs:86\n    84|         <div class=\"info-item\">\n    85|           <div class=\"info-label\">Status</div>\n >> 86|           <div class=\"info-value\"><%= streamInfo.status %></div>\n    87|         </div>\n    88|         <div class=\"info-item\">\n    89|           <div class=\"info-label\">Uptime</div>\n\nstreamInfo is not defined","path":"/app/src/views/index.ejs","stack":"ReferenceError: /app/src/views/index.ejs:86\n    84|         <div class=\"info-item\">\n    85|           <div class=\"info-label\">Status</div>\n >> 86|           <div class=\"info-value\"><%= streamInfo.status %></div>\n    87|         </div>\n    88|         <div class=\"info-item\">\n    89|           <div class=\"info-label\">Uptime</div>\n\nstreamInfo is not defined\n    at eval (\"/app/src/views/index.ejs\":21:26)\n    at index (/app/node_modules/ejs/lib/ejs.js:703:17)\n    at tryHandleCache (/app/node_modules/ejs/lib/ejs.js:274:36)\n    at exports.renderFile [as engine] (/app/node_modules/ejs/lib/ejs.js:491:10)\n    at View.render (/app/node_modules/express/lib/view.js:135:8)\n    at tryRender (/app/node_modules/express/lib/application.js:657:10)\n    at Function.render (/app/node_modules/express/lib/application.js:609:3)\n    at ServerResponse.render (/app/node_modules/express/lib/response.js:1049:7)\n    at /app/src/index.js:20:7\n    at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)"}
+{"level":"info","message":"Stream started successfully"}
+{"level":"info","message":"NVR web interface listening at http://localhost:8080"}
+{"level":"error","message":"Application error: /app/src/views/index.ejs:89\n    87|         <div class=\"info-item\">\n    88|           <div class=\"info-label\">Status</div>\n >> 89|           <div class=\"info-value\"><%= streamInfo.status %></div>\n    90|         </div>\n    91|         <div class=\"info-item\">\n    92|           <div class=\"info-label\">Uptime</div>\n\nstreamInfo is not defined","path":"/app/src/views/index.ejs","stack":"ReferenceError: /app/src/views/index.ejs:89\n    87|         <div class=\"info-item\">\n    88|           <div class=\"info-label\">Status</div>\n >> 89|           <div class=\"info-value\"><%= streamInfo.status %></div>\n    90|         </div>\n    91|         <div class=\"info-item\">\n    92|           <div class=\"info-label\">Uptime</div>\n\nstreamInfo is not defined\n    at eval (\"/app/src/views/index.ejs\":21:26)\n    at index (/app/node_modules/ejs/lib/ejs.js:703:17)\n    at tryHandleCache (/app/node_modules/ejs/lib/ejs.js:274:36)\n    at exports.renderFile [as engine] (/app/node_modules/ejs/lib/ejs.js:491:10)\n    at View.render (/app/node_modules/express/lib/view.js:135:8)\n    at tryRender (/app/node_modules/express/lib/application.js:657:10)\n    at Function.render (/app/node_modules/express/lib/application.js:609:3)\n    at ServerResponse.render (/app/node_modules/express/lib/response.js:1049:7)\n    at /app/src/index.js:20:7\n    at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)"}
+{"level":"error","message":"Application error: /app/src/views/index.ejs:89\n    87|         <div class=\"info-item\">\n    88|           <div class=\"info-label\">Status</div>\n >> 89|           <div class=\"info-value\"><%= streamInfo.status %></div>\n    90|         </div>\n    91|         <div class=\"info-item\">\n    92|           <div class=\"info-label\">Uptime</div>\n\nstreamInfo is not defined","path":"/app/src/views/index.ejs","stack":"ReferenceError: /app/src/views/index.ejs:89\n    87|         <div class=\"info-item\">\n    88|           <div class=\"info-label\">Status</div>\n >> 89|           <div class=\"info-value\"><%= streamInfo.status %></div>\n    90|         </div>\n    91|         <div class=\"info-item\">\n    92|           <div class=\"info-label\">Uptime</div>\n\nstreamInfo is not defined\n    at eval (\"/app/src/views/index.ejs\":21:26)\n    at index (/app/node_modules/ejs/lib/ejs.js:703:17)\n    at tryHandleCache (/app/node_modules/ejs/lib/ejs.js:274:36)\n    at exports.renderFile [as engine] (/app/node_modules/ejs/lib/ejs.js:491:10)\n    at View.render (/app/node_modules/express/lib/view.js:135:8)\n    at tryRender (/app/node_modules/express/lib/application.js:657:10)\n    at Function.render (/app/node_modules/express/lib/application.js:609:3)\n    at ServerResponse.render (/app/node_modules/express/lib/response.js:1049:7)\n    at /app/src/index.js:20:7\n    at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)"}
+{"level":"error","message":"Application error: /app/src/views/index.ejs:89\n    87|         <div class=\"info-item\">\n    88|           <div class=\"info-label\">Status</div>\n >> 89|           <div class=\"info-value\"><%= streamInfo.status %></div>\n    90|         </div>\n    91|         <div class=\"info-item\">\n    92|           <div class=\"info-label\">Uptime</div>\n\nstreamInfo is not defined","path":"/app/src/views/index.ejs","stack":"ReferenceError: /app/src/views/index.ejs:89\n    87|         <div class=\"info-item\">\n    88|           <div class=\"info-label\">Status</div>\n >> 89|           <div class=\"info-value\"><%= streamInfo.status %></div>\n    90|         </div>\n    91|         <div class=\"info-item\">\n    92|           <div class=\"info-label\">Uptime</div>\n\nstreamInfo is not defined\n    at eval (\"/app/src/views/index.ejs\":21:26)\n    at index (/app/node_modules/ejs/lib/ejs.js:703:17)\n    at tryHandleCache (/app/node_modules/ejs/lib/ejs.js:274:36)\n    at exports.renderFile [as engine] (/app/node_modules/ejs/lib/ejs.js:491:10)\n    at View.render (/app/node_modules/express/lib/view.js:135:8)\n    at tryRender (/app/node_modules/express/lib/application.js:657:10)\n    at Function.render (/app/node_modules/express/lib/application.js:609:3)\n    at ServerResponse.render (/app/node_modules/express/lib/response.js:1049:7)\n    at /app/src/index.js:20:7\n    at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)"}
+{"level":"error","message":"Application error: /app/src/views/index.ejs:89\n    87|         <div class=\"info-item\">\n    88|           <div class=\"info-label\">Status</div>\n >> 89|           <div class=\"info-value\"><%= streamInfo.status %></div>\n    90|         </div>\n    91|         <div class=\"info-item\">\n    92|           <div class=\"info-label\">Uptime</div>\n\nstreamInfo is not defined","path":"/app/src/views/index.ejs","stack":"ReferenceError: /app/src/views/index.ejs:89\n    87|         <div class=\"info-item\">\n    88|           <div class=\"info-label\">Status</div>\n >> 89|           <div class=\"info-value\"><%= streamInfo.status %></div>\n    90|         </div>\n    91|         <div class=\"info-item\">\n    92|           <div class=\"info-label\">Uptime</div>\n\nstreamInfo is not defined\n    at eval (\"/app/src/views/index.ejs\":21:26)\n    at index (/app/node_modules/ejs/lib/ejs.js:703:17)\n    at tryHandleCache (/app/node_modules/ejs/lib/ejs.js:274:36)\n    at exports.renderFile [as engine] (/app/node_modules/ejs/lib/ejs.js:491:10)\n    at View.render (/app/node_modules/express/lib/view.js:135:8)\n    at tryRender (/app/node_modules/express/lib/application.js:657:10)\n    at Function.render (/app/node_modules/express/lib/application.js:609:3)\n    at ServerResponse.render (/app/node_modules/express/lib/response.js:1049:7)\n    at /app/src/index.js:20:7\n    at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)"}
+{"ffmpegOptions":{"-b:v":"1000k","-bf":"0","-codec:v":"mpeg1video","-f":"mpegts","-i":"rtsp://admin:MaxCr33k420@10.0.100.231:554/h264Preview_01_main","-r":"30","-rtsp_transport":"tcp"},"level":"info","message":"Starting stream with config:","name":"camera1","streamUrl":"rtsp://admin:MaxCr33k420@10.0.100.231:554/h264Preview_01_main","wsPort":9999}
+{"level":"info","message":"Stream started successfully"}
+{"level":"info","message":"NVR web interface listening at http://localhost:8080"}
+{"level":"error","message":"Error rendering index: window is not defined","stack":"ReferenceError: window is not defined\n    at StreamManager.getWebsocketUrl (/app/src/streamManager.js:90:58)\n    at /app/src/index.js:23:28\n    at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/app/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/app/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)\n    at /app/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/app/node_modules/express/lib/router/index.js:346:12)\n    at next (/app/node_modules/express/lib/router/index.js:280:10)\n    at expressInit (/app/node_modules/express/lib/middleware/init.js:40:5)"}
+{"level":"error","message":"Error rendering index: window is not defined","stack":"ReferenceError: window is not defined\n    at StreamManager.getWebsocketUrl (/app/src/streamManager.js:90:58)\n    at /app/src/index.js:23:28\n    at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/app/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/app/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)\n    at /app/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/app/node_modules/express/lib/router/index.js:346:12)\n    at next (/app/node_modules/express/lib/router/index.js:280:10)\n    at expressInit (/app/node_modules/express/lib/middleware/init.js:40:5)"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully..."}
+{"level":"info","message":"Starting stream with config:","name":"camera1","options":{"-analyzeduration":"15000000","-b:v":"1000k","-bf":"0","-codec:v":"mpeg1video","-f":"mpegts","-probesize":"15000000","-q:v":"3","-r":"30","-re":"","-rtsp_transport":"tcp","-stats":""},"wsPort":9999}
+{"level":"info","message":"NVR web interface listening at http://localhost:8080"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully..."}
+{"level":"info","message":"Starting stream"}
+{"level":"info","message":"Server running at http://localhost:8080"}
+{"level":"info","message":"Shutting down..."}
+{"level":"info","message":"Starting stream"}
+{"level":"info","message":"Server running at http://localhost:8080"}
+{"level":"info","message":"Shutting down..."}
+{"ffmpegOptions":{"-an":"","-analyzeduration":"15000000","-b:v":"1000k","-bufsize":"2000k","-codec:v":"mpeg1video","-f":"mpegts","-i":"rtsp://admin:MaxCr33k420@10.0.100.231:554/h264Preview_01_main","-maxrate":"1000k","-probesize":"15000000","-q:v":"3","-r":"30","-re":"","-rtsp_transport":"tcp","-stats":""},"level":"info","message":"Starting stream with config:","name":"camera1","streamUrl":"rtsp://admin:MaxCr33k420@10.0.100.231:554/h264Preview_01_main","wsPort":9999}
+{"level":"info","message":"Server running at http://localhost:8080"}
+{"level":"info","message":"Shutting down..."}
+{"ffmpegOptions":{"-an":"","-analyzeduration":"15000000","-b:v":"1000k","-bufsize":"2000k","-codec:v":"mpeg1video","-f":"mpegts","-i":"rtsp://admin:MaxCr33k420@10.0.100.231:554/h264Preview_01_main","-maxrate":"1000k","-probesize":"15000000","-q:v":"3","-r":"30","-re":"","-rtsp_transport":"tcp","-stats":""},"level":"info","message":"Starting stream with config:","name":"camera1","streamUrl":"rtsp://admin:MaxCr33k420@10.0.100.231:554/h264Preview_01_main","wsPort":9999}
+{"level":"info","message":"Server running at http://localhost:8080"}
+{"level":"info","message":"Shutting down..."}
+{"ffmpegOptions":{"-an":"","-analyzeduration":"15000000","-b:v":"1000k","-bufsize":"2000k","-codec:v":"mpeg1video","-f":"mpegts","-i":"rtsp://admin:MaxCr33k420@10.0.100.231:554/h264Preview_01_main","-maxrate":"1000k","-probesize":"15000000","-q:v":"3","-r":"30","-re":"","-rtsp_transport":"tcp","-stats":""},"level":"info","message":"Starting stream with config:","name":"camera1","streamUrl":"rtsp://admin:MaxCr33k420@10.0.100.231:554/h264Preview_01_main","wsPort":9999}
+{"level":"info","message":"Server running at http://localhost:8080"}
+{"level":"info","message":"Shutting down..."}
+{"ffmpegOptions":{"-an":"","-analyzeduration":"15000000","-b:v":"1000k","-bufsize":"2000k","-codec:v":"mpeg1video","-f":"mpegts","-i":"rtsp://admin:MaxCr33k420@10.0.100.231:554/h264Preview_01_main","-maxrate":"1000k","-probesize":"15000000","-q:v":"3","-r":"30","-re":"","-rtsp_transport":"tcp","-stats":""},"level":"info","message":"Starting stream with config:","name":"camera1","streamUrl":"rtsp://admin:MaxCr33k420@10.0.100.231:554/h264Preview_01_main","wsPort":9999}
+{"level":"info","message":"Server running at http://localhost:8080"}
+{"level":"info","message":"Shutting down..."}
+{"ffmpegOptions":{"-an":"","-analyzeduration":"15000000","-b:v":"1000k","-bufsize":"2000k","-codec:v":"mpeg1video","-f":"mpegts","-i":"rtsp://admin:MaxCr33k420@10.0.100.231:554/h264Preview_01_main","-maxrate":"1000k","-probesize":"15000000","-q:v":"3","-r":"30","-re":"","-rtsp_transport":"tcp","-stats":""},"level":"info","message":"Starting stream with config:","name":"camera1","streamUrl":"rtsp://admin:MaxCr33k420@10.0.100.231:554/h264Preview_01_main","wsPort":9999}
+{"level":"info","message":"Server running at http://localhost:8080"}
+{"level":"info","message":"Shutting down..."}
+{"level":"info","message":"Server running at http://localhost:8080"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully..."}
+{"level":"info","message":"Server running at http://localhost:8080"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully..."}
+{"level":"info","message":"Server running at http://localhost:8080"}
+{"level":"info","message":"Server running at http://localhost:8080"}
+{"level":"info","message":"Testing RTSP stream connection..."}
+{"level":"error","message":"FFmpeg Error: [null @ 0x61d0fba5a880] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 5 >= 5\n"}
+{"level":"error","message":"FFmpeg Error:     Last message repeated 3 times\n[null @ 0x61d0fba5a880] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 6 >= 6\n"}
+{"level":"error","message":"FFmpeg Error:     Last message repeated 3 times\n[null @ 0x61d0fba5a880] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 10 >= 10\n"}
+{"level":"error","message":"FFmpeg Error: [null @ 0x61d0fba5a880] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 14 >= 14\n"}
+{"level":"error","message":"FFmpeg Error: [null @ 0x61d0fba5a880] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 21 >= 21\n"}
+{"level":"error","message":"FFmpeg Error:     Last message repeated 2 times\n[null @ 0x61d0fba5a880] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 22 >= 22\n"}
+{"level":"error","message":"FFmpeg Error: [null @ 0x61d0fba5a880] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 26 >= 26\n"}
+{"level":"error","message":"FFmpeg Error: [null @ 0x61d0fba5a880] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 30 >= 30\n"}
+{"level":"error","message":"FFmpeg Error: [null @ 0x61d0fba5a880] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 36 >= 36\n"}
+{"level":"error","message":"FFmpeg Error: [null @ 0x61d0fba5a880] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 39 >= 39\n"}
+{"level":"error","message":"FFmpeg Error:     Last message repeated 1 times\n[null @ 0x61d0fba5a880] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 42 >= 42\n"}
+{"level":"error","message":"FFmpeg Error: [null @ 0x61d0fba5a880] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 46 >= 46\n"}
+{"level":"error","message":"FFmpeg Error: [null @ 0x61d0fba5a880] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 48 >= 48\n"}
+{"level":"error","message":"FFmpeg Error: [null @ 0x61d0fba5a880] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 50 >= 50\n"}
+{"level":"error","message":"FFmpeg Error: [null @ 0x61d0fba5a880] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 54 >= 54\n"}
+{"level":"error","message":"FFmpeg Error: [null @ 0x61d0fba5a880] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 56 >= 56\n"}
+{"level":"error","message":"FFmpeg Error: [null @ 0x61d0fba5a880] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 59 >= 59\n"}
+{"level":"error","message":"FFmpeg Error: [null @ 0x61d0fba5a880] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 60 >= 60\n"}
+{"level":"error","message":"FFmpeg Error: [null @ 0x61d0fba5a880] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 62 >= 62\n"}
+{"level":"error","message":"❌ Failed to connect to RTSP stream"}
+{"level":"info","message":"Common issues to check:"}
+{"level":"info","message":"1. Camera is powered on and connected to network"}
+{"level":"info","message":"2. IP address is correct"}
+{"level":"info","message":"3. Username and password are correct"}
+{"level":"info","message":"4. Network allows RTSP traffic (port 554)"}
+{"level":"info","message":"Testing RTSP stream connection..."}
+{"level":"error","message":"❌ Failed to connect to RTSP stream"}
+{"level":"error","message":"FFmpeg Error Details:"}
+{"level":"info","message":"\nTroubleshooting steps:"}
+{"level":"info","message":"1. Verify camera IP (current: 10.0.100.232)"}
+{"level":"info","message":"2. Check credentials (username: admin)"}
+{"level":"info","message":"3. Confirm RTSP port 554 is accessible"}
+{"level":"info","message":"4. Try testing with VLC: rtsp://admin:MaxCr33k420@10.0.100.232:554/h264Preview_01_main"}
+{"level":"info","message":"Testing RTSP stream connection..."}
+{"level":"info","message":"Using RTSP URL: rtsp://admin:MaxCr33k420@10.0.100.232:554/h264Preview_01_main"}
+{"level":"error","message":"❌ Failed to connect to RTSP stream"}
+{"level":"error","message":"FFmpeg Error Details:"}
+{"level":"info","message":"\nTroubleshooting steps:"}
+{"level":"info","message":"1. Verify camera IP (current: 10.0.100.232)"}
+{"level":"info","message":"2. Check credentials (username: admin)"}
+{"level":"info","message":"3. Confirm RTSP port 554 is accessible"}
+{"level":"info","message":"4. Try testing with VLC: rtsp://admin:MaxCr33k420@10.0.100.232:554/h264Preview_01_main"}
+{"level":"info","message":"Server running at http://localhost:8080"}
+{"level":"info","message":"Server running at http://localhost:8080"}
+{"level":"info","message":"RTSP URL: rtsp://admin:MaxCr33k420@10.0.100.232:554/h264Preview_01_main"}
+{"level":"info","message":"Server running at http://localhost:8080"}
+{"level":"info","message":"RTSP URL: rtsp://admin:MaxCr33k420@10.0.100.232:554/h264Preview_01_main"}
+{"level":"info","message":"Server running at http://localhost:8080"}
+{"level":"info","message":"RTSP URL: rtsp://admin:MaxCr33k420@10.0.100.232:554/h264Preview_01_main"}
+{"level":"info","message":"Server running at http://localhost:8080"}
+{"level":"info","message":"RTSP URL: rtsp://admin:MaxCr33k420@10.0.100.232:554/h264Preview_01_main"}
+{"level":"info","message":"=== New WebSocket Connection ==="}
+{"ip":"::1","level":"info","message":"Client connected:","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully"}
+{"level":"info","message":"WebSocket connection closed"}
+{"level":"info","message":"=== New WebSocket Connection ==="}
+{"ip":"::1","level":"info","message":"Client connected:","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully"}
+{"level":"info","message":"WebSocket connection closed"}
+{"level":"info","message":"=== New WebSocket Connection ==="}
+{"ip":"::1","level":"info","message":"Client connected:","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully"}
+{"level":"info","message":"Server running at http://localhost:8080"}
+{"level":"info","message":"RTSP URL: rtsp://admin:MaxCr33k420@10.0.100.232:554/h264Preview_01_main"}
+{"level":"info","message":"=== New WebSocket Connection ==="}
+{"ip":"::1","level":"info","message":"Client connected:","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully"}
+{"level":"info","message":"=== New WebSocket Connection ==="}
+{"ip":"::1","level":"info","message":"Client connected:","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully"}
+{"level":"info","message":"WebSocket connection closed"}
+{"level":"info","message":"=== New WebSocket Connection ==="}
+{"ip":"::1","level":"info","message":"Client connected:","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully"}
+{"level":"info","message":"WebSocket connection closed"}
+{"level":"info","message":"WebSocket connection closed"}
+{"level":"info","message":"Server running at http://localhost:8080"}
+{"level":"info","message":"RTSP URL: rtsp://admin:MaxCr33k420@10.0.100.232:554/h264Preview_01_main"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully..."}
+{"level":"info","message":"Server running at http://localhost:8080"}
+{"level":"info","message":"RTSP URL: rtsp://admin:MaxCr33k420@10.0.100.232:554/h264Preview_01_main"}
+{"level":"info","message":"=== New WebSocket Connection ==="}
+{"ip":"::ffff:192.168.48.1","level":"info","message":"Client connected:","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully"}
+{"level":"info","message":"WebSocket connection closed"}
+{"level":"info","message":"=== New WebSocket Connection ==="}
+{"ip":"::ffff:192.168.48.1","level":"info","message":"Client connected:","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully..."}
+{"level":"info","message":"Server running at http://0.0.0.0:8080"}
+{"level":"info","message":"RTSP URL: rtsp://admin:MaxCr33k420@10.0.100.232:554/h264Preview_01_main"}
+{"level":"info","message":"=== New WebSocket Connection ==="}
+{"ip":"192.168.64.1","level":"info","message":"Client connected:","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully"}
+{"level":"info","message":"WebSocket connection closed"}
+{"level":"info","message":"=== New WebSocket Connection ==="}
+{"ip":"192.168.64.1","level":"info","message":"Client connected:","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully..."}
+{"level":"info","message":"Server running at http://0.0.0.0:8080"}
+{"level":"info","message":"RTSP URL: rtsp://admin:MaxCr33k420@10.0.100.232:554/h264Preview_01_main"}
+{"level":"info","message":"=== New WebSocket Connection ==="}
+{"ip":"192.168.64.1","level":"info","message":"Client connected:","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully"}
+{"level":"info","message":"WebSocket connection closed"}
+{"level":"info","message":"=== New WebSocket Connection ==="}
+{"ip":"192.168.64.1","level":"info","message":"Client connected:","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully..."}
+{"level":"info","message":"Server running at http://0.0.0.0:8080"}
+{"level":"info","message":"Configured streams: Front Door, Back Yard"}
+{"level":"info","message":"=== New WebSocket Connection for Front Door ==="}
+{"ip":"192.168.64.1","level":"info","message":"Client connected:","stream":"camera1","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully for Front Door"}
+{"level":"info","message":"=== New WebSocket Connection for Back Yard ==="}
+{"ip":"192.168.64.1","level":"info","message":"Client connected:","stream":"camera2","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully for Back Yard"}
+{"level":"info","message":"WebSocket connection closed for Front Door"}
+{"level":"info","message":"WebSocket connection closed for Back Yard"}
+{"level":"info","message":"=== New WebSocket Connection for Front Door ==="}
+{"ip":"192.168.64.1","level":"info","message":"Client connected:","stream":"camera1","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully for Front Door"}
+{"level":"info","message":"=== New WebSocket Connection for Back Yard ==="}
+{"ip":"192.168.64.1","level":"info","message":"Client connected:","stream":"camera2","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully for Back Yard"}
+{"level":"info","message":"WebSocket connection closed for Back Yard"}
+{"level":"info","message":"WebSocket connection closed for Front Door"}
+{"level":"info","message":"=== New WebSocket Connection for Front Door ==="}
+{"ip":"192.168.64.1","level":"info","message":"Client connected:","stream":"camera1","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully for Front Door"}
+{"level":"info","message":"=== New WebSocket Connection for Back Yard ==="}
+{"ip":"192.168.64.1","level":"info","message":"Client connected:","stream":"camera2","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully for Back Yard"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully..."}
+{"level":"info","message":"Server running at http://0.0.0.0:8080"}
+{"level":"info","message":"Configured streams: Front Door, Back Yard"}
+{"level":"info","message":"=== New WebSocket Connection for Back Yard ==="}
+{"ip":"192.168.64.1","level":"info","message":"Client connected:","stream":"camera2","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully for Back Yard"}
+{"level":"info","message":"=== New WebSocket Connection for Front Door ==="}
+{"ip":"192.168.64.1","level":"info","message":"Client connected:","stream":"camera1","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully for Front Door"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully..."}
+{"level":"info","message":"Server running at http://0.0.0.0:8080"}
+{"level":"info","message":"Configured streams: Front Door, Back Yard, Amcrest 240"}
+{"level":"info","message":"=== New WebSocket Connection for Front Door ==="}
+{"ip":"192.168.80.1","level":"info","message":"Client connected:","stream":"camera1","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully for Front Door"}
+{"level":"info","message":"=== New WebSocket Connection for Back Yard ==="}
+{"ip":"192.168.80.1","level":"info","message":"Client connected:","stream":"camera2","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully for Back Yard"}
+{"level":"info","message":"WebSocket connection closed for Front Door"}
+{"level":"info","message":"WebSocket connection closed for Back Yard"}
+{"level":"info","message":"=== New WebSocket Connection for Front Door ==="}
+{"ip":"192.168.80.1","level":"info","message":"Client connected:","stream":"camera1","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully for Front Door"}
+{"level":"info","message":"=== New WebSocket Connection for Back Yard ==="}
+{"ip":"192.168.80.1","level":"info","message":"Client connected:","stream":"camera2","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully for Back Yard"}
+{"level":"info","message":"=== New WebSocket Connection for Amcrest 240 ==="}
+{"ip":"192.168.80.1","level":"info","message":"Client connected:","stream":"amcrest240","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully for Amcrest 240"}
+{"level":"info","message":"SIGTERM received. Shutting down gracefully..."}
+{"level":"info","message":"WebSocket connection closed for Front Door"}
+{"level":"info","message":"Server running at http://0.0.0.0:8080"}
+{"level":"info","message":"Configured streams: Front Door, Back Yard, Amcrest 240, Amcrest 244"}
+{"level":"info","message":"=== New WebSocket Connection for Front Door ==="}
+{"ip":"192.168.112.1","level":"info","message":"Client connected:","stream":"camera1","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully for Front Door"}
+{"level":"info","message":"=== New WebSocket Connection for Back Yard ==="}
+{"ip":"192.168.112.1","level":"info","message":"Client connected:","stream":"camera2","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully for Back Yard"}
+{"level":"info","message":"=== New WebSocket Connection for Amcrest 240 ==="}
+{"ip":"192.168.112.1","level":"info","message":"Client connected:","stream":"amcrest240","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully for Amcrest 240"}
+{"level":"info","message":"=== New WebSocket Connection for Amcrest 244 ==="}
+{"ip":"192.168.112.1","level":"info","message":"Client connected:","stream":"amcrest244","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+{"level":"info","message":"Stream started successfully for Amcrest 244"}

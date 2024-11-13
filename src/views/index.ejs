@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Multi-Stream NVR</title>
+    <script src="/js/jsmpeg.min.js"></script>
+    
+    <style>
+      .streams-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(640px, 1fr));
+        gap: 20px;
+        padding: 20px;
+      }
+      
+      .stream-container {
+        background: #f8f9fa;
+        border-radius: 8px;
+        padding: 15px;
+      }
+      
+      .stream-title {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+        color: #333;
+      }
+      
+      .video-container {
+        position: relative;
+        width: 100%;
+        background: #000;
+      }
+      
+      canvas {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+      
+      .status-bar {
+        padding: 8px;
+        margin-top: 10px;
+        border-radius: 4px;
+        text-align: center;
+        background: #fff3cd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="streams-container">
+      <% streams.forEach(function(stream) { %>
+        <div class="stream-container">
+          <div class="stream-title"><%= stream.name %></div>
+          <div class="video-container">
+            <canvas id="videoCanvas-<%= stream.id %>" width="<%= stream.width %>" height="<%= stream.height %>"></canvas>
+          </div>
+          <div id="statusBar-<%= stream.id %>" class="status-bar">Initializing stream...</div>
+        </div>
+      <% }); %>
+    </div>
+
+    <script>
+      const players = new Map();
+      
+      function initializePlayer(stream) {
+        const canvas = document.getElementById(`videoCanvas-${stream.id}`);
+        const statusBar = document.getElementById(`statusBar-${stream.id}`);
+        
+        try {
+          const wsUrl = `ws://${window.location.host}/stream/${stream.id}`;
+          console.log(`Connecting to WebSocket for ${stream.name}:`, wsUrl);
+          
+          const player = new JSMpeg.Player(wsUrl, {
+            canvas: canvas,
+            audio: false,
+            pauseWhenHidden: false,
+            videoBufferSize: 4 * 1024 * 1024,
+            
+            onSourceEstablished: () => {
+              console.log(`Stream connected: ${stream.name}`);
+              statusBar.style.background = '#d4edda';
+              statusBar.textContent = 'Stream connected';
+            },
+            onSourceCompleted: () => {
+              console.log(`Stream ended: ${stream.name}`);
+              statusBar.style.background = '#f8d7da';
+              statusBar.textContent = 'Stream ended. Reconnecting...';
+              setTimeout(() => initializePlayer(stream), 5000);
+            },
+            onError: (error) => {
+              console.error(`Stream error for ${stream.name}:`, error);
+              statusBar.style.background = '#f8d7da';
+              statusBar.textContent = `Stream error: ${error}`;
+              setTimeout(() => initializePlayer(stream), 5000);
+            }
+          });
+          
+          players.set(stream.id, player);
+        } catch (error) {
+          console.error(`Error initializing player for ${stream.name}:`, error);
+          statusBar.style.background = '#f8d7da';
+          statusBar.textContent = `Player initialization failed: ${error.message}`;
+        }
+      }
+
+      // Initialize all streams
+      <% streams.forEach(function(stream) { %>
+        initializePlayer(<%- JSON.stringify(stream) %>);
+      <% }); %>
+    </script>
+  </body>
+</html>
